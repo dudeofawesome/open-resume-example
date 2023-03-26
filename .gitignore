@@ -13,6 +13,7 @@ out/
 build/
 public/*.pdf
 .sass-cache/
+public/*.pdf
 
 # misc
 .DS_Store

@@ -1,0 +1,5 @@
+extends:
+  - '@dudeofawesome'
+  - '@dudeofawesome/typescript'
+  - 'plugin:@next/next/recommended'
+root: true
