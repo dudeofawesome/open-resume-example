@@ -28,9 +28,6 @@ jobs:
 
   export:
     runs-on: 'ubuntu-latest'
-    environment:
-      name: 'github-pages'
-      url: '${{ steps.deployment.outputs.page_url }}'
     needs:
       - 'build'
     steps:
@@ -50,6 +47,7 @@ jobs:
         run: 'touch "out/.nojekyll"' # fixes missing style
 
       - name: 'Upload artifact 🧩'
+        if: '(github.ref_name == github.event.repository.default_branch)'
         uses: 'actions/upload-pages-artifact@v1'
         with:
           path: './out'
