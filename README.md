@@ -2,9 +2,7 @@
 
 ## Building your own résumé
 
-1.  Create your own repository from [this template repo](https://github.com/dudeofawesome/open-resume-example).
-
-    <img width="201" alt="image" src="https://user-images.githubusercontent.com/1683595/228086877-1581bcfc-d63a-4e25-b28e-c131e8f39f05.png">
+1.  [Create your own repository from this template repo](https://github.com/dudeofawesome/open-resume-example/generate).
 
 1.  Ensure that GitHub Pages are enabled in your new resume
 
